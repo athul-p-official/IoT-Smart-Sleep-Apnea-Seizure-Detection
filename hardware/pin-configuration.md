@@ -1,0 +1,52 @@
+Hardware Pin Configuration
+
+ESP32 I²C Bus
+
+ESP32| Function
+GPIO 21| SDA
+GPIO 22| SCL
+
+The following I²C devices share the same bus:
+
+- SSD1306 OLED
+- MAX30102
+- MPU6050
+
+AD8232 ECG
+
+AD8232| ESP32
+OUTPUT| GPIO 34
+LO−| GPIO 4
+LO+| GPIO 5
+3.3V| 3V3
+GND| GND
+
+MAX30102
+
+MAX30102| ESP32
+SDA| GPIO 21
+SCL| GPIO 22
+VCC| 3.3V
+GND| GND
+
+MPU6050
+
+MPU6050| ESP32
+SDA| GPIO 21
+SCL| GPIO 22
+VCC| 3.3V
+GND| GND
+
+SSD1306 OLED
+
+OLED| ESP32
+SDA| GPIO 21
+SCL| GPIO 22
+VCC| 3.3V
+GND| GND
+
+Buzzer
+
+Buzzer| ESP32
+Positive| GPIO 26
+Negative| GND
